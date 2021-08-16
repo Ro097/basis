@@ -1,7 +1,6 @@
 package basis.imports;
 
 import basis.imports.ro.Test2;
-import com.luojun.basis.test2;
 
 /**
  * @author luojun
