@@ -15,8 +15,7 @@ public class LocalInnerClass {
             }
 
             @Override
-            public int next() {
-                System.out.print(name);
+            public int next() { 
                 return count++;
             }
         }
