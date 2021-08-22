@@ -44,7 +44,12 @@ public class ToyTest {
         printInfo(object.getClass());
 
         System.out.println("==============");
+
         printInfo(c);
+
+        System.out.println("==============");
+
+        ((Toy)object).test();
     }
 
 }
@@ -63,6 +68,10 @@ class Toy {
     }
 
     Toy(int i) {
+    }
+
+    public  void test() {
+        System.out.println("hello");
     }
 
 }
