@@ -44,6 +44,6 @@ class Initable2 {
 class Initable3{
     static int staticNonFinal = 74;
     static {
-        System.out.println("Initializing Initable2");
+        System.out.println("Initializing Initable3");
     }
 }
